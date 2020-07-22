@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lhx.cephfs.commons.mapper.NodeMapper">
+  <resultMap id="BaseResultMap" type="com.lhx.cephfs.commons.domain.Node">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="nodeId" jdbcType="INTEGER" property="nodeid" />
+    <result column="nodeName" jdbcType="VARCHAR" property="nodename" />
+    <result column="nodeIp" jdbcType="VARCHAR" property="nodeip" />
+    <result column="isAdmin" jdbcType="INTEGER" property="isadmin" />
+  </resultMap>
+</mapper>

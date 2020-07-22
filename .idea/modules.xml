@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/cephfs.iml" filepath="$PROJECT_DIR$/.idea/cephfs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cephfs-commons/cephfs-commons.iml" filepath="$PROJECT_DIR$/cephfs-commons/cephfs-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cephfs-commons-domain/cephfs-commons-domain.iml" filepath="$PROJECT_DIR$/cephfs-commons-domain/cephfs-commons-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cephfs-commons-mapper/cephfs-commons-mapper.iml" filepath="$PROJECT_DIR$/cephfs-commons-mapper/cephfs-commons-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cephfs-commons-service/cephfs-commons-service.iml" filepath="$PROJECT_DIR$/cephfs-commons-service/cephfs-commons-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cephfs-database/cephfs-database.iml" filepath="$PROJECT_DIR$/cephfs-database/cephfs-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cephfs-dependencies/cephfs-dependencies.iml" filepath="$PROJECT_DIR$/cephfs-dependencies/cephfs-dependencies.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cephfs-service-cluster/cephfs-service-cluster.iml" filepath="$PROJECT_DIR$/cephfs-service-cluster/cephfs-service-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cephfs-commons/storytree-commons.iml" filepath="$PROJECT_DIR$/cephfs-commons/storytree-commons.iml" />
+    </modules>
+  </component>
+</project>
