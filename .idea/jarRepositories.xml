@@ -62,6 +62,11 @@
       <option name="url" value="https://repo.spring.io/snapshot" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="sonatype-repos" />
       <option name="name" value="Sonatype Repository" />
       <option name="url" value="https://maven.aliyun.com/repository/public" />

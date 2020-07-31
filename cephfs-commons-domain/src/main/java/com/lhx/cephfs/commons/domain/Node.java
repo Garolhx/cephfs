@@ -10,75 +10,75 @@ public class Node {
      * 节点ID
      */
     @Id
-    @Column(name = "nodeId")
-    private Integer nodeid;
+    @Column(name = "node_id")
+    private Integer nodeId;
 
-    @Column(name = "nodeName")
-    private String nodename;
+    @Column(name = "node_name")
+    private String nodeName;
 
-    @Column(name = "nodeIp")
-    private String nodeip;
+    @Column(name = "node_ip")
+    private String nodeIp;
 
-    @Column(name = "isAdmin")
-    private Integer isadmin;
+    @Column(name = "is_admin")
+    private Integer isAdmin;
 
     /**
      * 获取节点ID
      *
-     * @return nodeId - 节点ID
+     * @return node_id - 节点ID
      */
-    public Integer getNodeid() {
-        return nodeid;
+    public Integer getNodeId() {
+        return nodeId;
     }
 
     /**
      * 设置节点ID
      *
-     * @param nodeid 节点ID
+     * @param nodeId 节点ID
      */
-    public void setNodeid(Integer nodeid) {
-        this.nodeid = nodeid;
+    public void setNodeId(Integer nodeId) {
+        this.nodeId = nodeId;
     }
 
     /**
-     * @return nodeName
+     * @return node_name
      */
-    public String getNodename() {
-        return nodename;
+    public String getNodeName() {
+        return nodeName;
     }
 
     /**
-     * @param nodename
+     * @param nodeName
      */
-    public void setNodename(String nodename) {
-        this.nodename = nodename;
+    public void setNodeName(String nodeName) {
+        this.nodeName = nodeName;
     }
 
     /**
-     * @return nodeIp
+     * @return node_ip
      */
-    public String getNodeip() {
-        return nodeip;
+    public String getNodeIp() {
+        return nodeIp;
     }
 
     /**
-     * @param nodeip
+     * @param nodeIp
      */
-    public void setNodeip(String nodeip) {
-        this.nodeip = nodeip;
+    public void setNodeIp(String nodeIp) {
+        this.nodeIp = nodeIp;
     }
 
     /**
-     * @return isAdmin
+     * @return is_admin
      */
-    public Integer getIsadmin() {
-        return isadmin;
+    public Integer getIsAdmin() {
+        return isAdmin;
     }
 
     /**
-     * @param isadmin
+     * @param isAdmin
      */
-    public void setIsadmin(Integer isadmin) {
-        this.isadmin = isadmin;
+    public void setIsAdmin(Integer isAdmin) {
+        this.isAdmin = isAdmin;
     }
 }

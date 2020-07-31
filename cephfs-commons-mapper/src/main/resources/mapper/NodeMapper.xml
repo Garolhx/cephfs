@@ -5,9 +5,9 @@
     <!--
       WARNING - @mbg.generated
     -->
-    <id column="nodeId" jdbcType="INTEGER" property="nodeid" />
-    <result column="nodeName" jdbcType="VARCHAR" property="nodename" />
-    <result column="nodeIp" jdbcType="VARCHAR" property="nodeip" />
-    <result column="isAdmin" jdbcType="INTEGER" property="isadmin" />
+    <id column="node_id" jdbcType="INTEGER" property="nodeId" />
+    <result column="node_name" jdbcType="VARCHAR" property="nodeName" />
+    <result column="node_ip" jdbcType="VARCHAR" property="nodeIp" />
+    <result column="is_admin" jdbcType="INTEGER" property="isAdmin" />
   </resultMap>
 </mapper>
