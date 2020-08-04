@@ -63,15 +63,15 @@ public class ClusterController {
         Map<String, Object> query_cluster_status = BodyBuilder(body, args, "query_cluster_status", adminNode.getNodeName());
         Map map = restTemplate.postForObject(url, query_cluster_status, Map.class);
 
-//        Map<String, Object> query_monmap_status = BodyBuilder(body, args, "query_monmap_status", adminNode.getNodeName());
-//        Map map2 = restTemplate.postForObject(url, query_monmap_status, Map.class);
+        Map<String, Object> query_monmap_status = BodyBuilder(body, args, "query_monmap_status", adminNode.getNodeName());
+        Map map2 = restTemplate.postForObject(url, query_monmap_status, Map.class);
 
         HashMap<String, Object> result = new HashMap<>();
-        if(map.get("msg").toString().equals("SUCCESS")){
+        if(map.get("msg").toString().equals("SUCCESS") && map2.get("msg").toString().equals("SUCCESS")){
             result.put("err", "");
             result.put("msg", map.get("msg"));
             JSONObject context = JSON.parseObject(map.get("context").toString());
-            String[] FilterItems = {"quorum_age", "monmap"};
+            String[] FilterItems = {"health", "quorum_age", "monmap", "pgmap", "fsmap"};
             String s = jsonString(FilterItems, context, false);
             System.out.println(s);
             result.put("data", JSON.parseObject(s));
